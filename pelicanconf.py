@@ -17,9 +17,6 @@ RELATIVE_URLS = True
 PDF_GENERATOR = False
 REVERSE_CATEGORY_ORDER = True
 DISPLAY_PAGES_ON_MENU = True
-
-## Static files
-STATIC_PATHS = ["images", ]
 ARTICLE_URL = 'posts/{date:%Y}/{date:%m}/{date:%d}/{slug}/'
 ARTICLE_SAVE_AS = 'posts/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 
@@ -33,6 +30,10 @@ MENUITEMS = (('About', 'pages/about'),
              ('Researches', 'pages/researches'),
              ('Projects', 'pages/projects'),
              ('Contact', 'pages/contact'))
+
+## Static files
+STATIC_PATHS = ['images', 'extra/CNAME']
+EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
 
 ## Plugins
 PLUGIN_PATH = "plugins"
