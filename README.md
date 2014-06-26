@@ -1,4 +1,4 @@
-homesite-pelican
+Site hsiamin.com
 ================
 
-The source code of personal website based on Pelican.
+Personal webpage under construction.
