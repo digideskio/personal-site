@@ -17,7 +17,7 @@ If you are interested in my `articles`_, `researches`_, or `projects`_, you can
 reach me via email or other partially instant messages like `github`_:).
 
 
-.. image:: http://bit.do/tXh8
+.. image:: http://bit.do/HZjk
    :scale: 50 %
    :alt: photo
    :align: center
