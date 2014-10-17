@@ -4,7 +4,8 @@ from __future__ import unicode_literals
 
 ## Site info
 AUTHOR = u'Xiaming Chen'
-SITENAME = u'Xiaming Chen'
+SITENAME = u'Stat Trek'
+SITESUBTITLE = u'What hurts more, the pain of hard work or the pain of regret?'
 SITEURL = 'http://hsiamin.com'
 LOCALE = "en_US.UTF-8"
 
@@ -42,14 +43,8 @@ PLUGINS = ['gravatar']
 ## Gravatar settings
 AUTHOR_EMAIL = "caesar0301@163.com"
 
-## Blogroll
-LINKS =  (('Pelican', 'http://getpelican.com/'),
-          ('Python.org', 'http://python.org/'),
-          ('Jinja2', 'http://jinja.pocoo.org/'),
-          ('You can modify those links in your config file', '#'),)
-
 ## Social widgets
 SOCIAL = (('github', 'https://github.com/caesar0301/'),
-          ('twitter', 'https://twitter.com/hsiaminc'),
+          ('twitter', 'https://twitter.com/xiamingc'),
           ('weibo', 'http://weibo.com/fuckinmylife'),
           ('rss', 'http://hsiamin.com/feeds/all.atom.xml'))
