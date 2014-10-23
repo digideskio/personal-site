@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 ## Site info
 AUTHOR = u'Xiaming Chen'
-SITENAME = u'Stat Trek'
+SITENAME = u'StaTrek'
 #SITESUBTITLE = u'What hurts more, the pain of hard work or the pain of regret?'
 SITEURL = 'http://hsiamin.com'
 LOCALE = "en_US.UTF-8"
