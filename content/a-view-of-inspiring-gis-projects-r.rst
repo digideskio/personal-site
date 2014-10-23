@@ -15,8 +15,8 @@ journey in `R`_ world.
 
 `R`_ has facilitated my daily mining tasks as a tiny *Swiss-army-knife* in
 pocket, from data collection, wangling, and transforming, to modeling,
-visualization, and more importantly, communication with others. In this blog,
-I collect and make a list about some inspiring GIS (`Geographic Information
+visualization, and more importantly, communication with others. In this blog, I
+collect and make a list about some inspiring GIS (`Geographic Information
 System <http://bit.ly/1zepNZi>`_) projects (mostly using `R`_) that inspire me
 in my studies and provide me another vantage point to see this world *dataly*.
 
@@ -48,9 +48,10 @@ advice**.
   integrated IDE.
 
 - `Quick-R <http://www.statmethods.net/>`_: This may be your first arrival in
-  real R's world. This site is created to help the user quickly access the power
-  of R in their own work. More details in each part of this site can be read in
-  the book `R in Action (2nd Edition) <http://www.manning.com/kabacoff2/>`_.
+  real R's world. This site is created to help the user quickly access the
+  power of R in their own work. More details in each part of this site can be
+  read in the book `R in Action (2nd Edition)
+  <http://www.manning.com/kabacoff2/>`_.
 
 - `CRAN Task View <http://cran.r-project.org/web/views/>`_: You will like these
   repositories if you are an expert in specific domain and want to leverage R's
