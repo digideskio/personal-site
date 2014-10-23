@@ -1,8 +1,9 @@
 统计中的样本检验基础和R实践
-#####################################
+###########################
+
 :date: 2014-05-07 05:07
 :author: caesar0301
-:category: Data mining, R
+:category: Data mining
 :tags: data mining, hypothesis testing, R, t-test
 :slug: 统计中得样本检验基础和R实践
 

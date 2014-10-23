@@ -2,7 +2,7 @@ Python grammer and coding style checking tools
 ##############################################
 :date: 2014-04-26 17:06
 :author: caesar0301
-:category: Programming, Python
+:category: Programming
 :tags: flake8, pep8, Python
 
 In this post, several python/C coding style documentaion and static chekcing

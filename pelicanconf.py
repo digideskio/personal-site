@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 ## Site info
 AUTHOR = u'Xiaming Chen'
 SITENAME = u'Stat Trek'
-SITESUBTITLE = u'What hurts more, the pain of hard work or the pain of regret?'
+#SITESUBTITLE = u'What hurts more, the pain of hard work or the pain of regret?'
 SITEURL = 'http://hsiamin.com'
 LOCALE = "en_US.UTF-8"
 
@@ -22,15 +22,15 @@ ARTICLE_URL = 'posts/{date:%Y}/{date:%m}/{date:%d}/{slug}/'
 ARTICLE_SAVE_AS = 'posts/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 
 ## Theme
-THEME = "themes/pure"
-COVER_IMG_URL = "http://www.hdwallpapers.in/walls/galaxy_universe-normal.jpg"
+THEME = "themes/gum"
+COVER_IMG_URL = "images/galaxy-universe-banner-v.jpg"
 DISQUS_SITENAME = "hsiamincom"
 GOOGLE_ANALYTICS = "UA-36744847-3"
-MENUITEMS = (('About', 'pages/about'),
-             ('Publications', 'pages/publications'),
-             ('Researches', 'pages/researches'),
-             ('Projects', 'pages/projects'),
-             ('Contact', 'pages/contact'))
+# MENUITEMS = (('About', 'pages/about'),
+#              ('Publications', 'pages/publications'),
+#              ('Researches', 'pages/researches'),
+#              ('Projects', 'pages/projects'),
+#              ('Contact', 'pages/contact'))
 
 ## Static files
 STATIC_PATHS = ['images', 'extra/CNAME']

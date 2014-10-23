@@ -1,8 +1,17 @@
 About Me
-############################
+########
+
 :date: 2014-06-25 18:00
 :author: caesar0301
 :slug: about
+
+
+.. figure:: http://bit.do/HZjk
+   :height: 300
+   :width: 450
+   :alt: myphoto
+
+   **Photo shot by Gong, at Dishui Lake, Shanghai, 2014**
 
 I am now a Ph.D. candidate with `Prof. Yaohui Jin`_ at `Shanghai Jiao Tong
 Univ.`_. I received my B.S. (2010) of Optical Information and Science
@@ -16,11 +25,6 @@ Network Processor and hadoop/mapreduce framework.
 If you are interested in my `articles`_, `researches`_, or `projects`_, you can
 reach me via email or other partially instant messages like `github`_:).
 
-
-.. image:: http://bit.do/HZjk
-   :scale: 50 %
-   :alt: photo
-   :align: center
 
 .. _Prof. Yaohui Jin: http://front.sjtu.edu.cn/~jinyh/
 .. _Shanghai Jiao Tong Univ.: http://www.sjtu.edu.cn/en
