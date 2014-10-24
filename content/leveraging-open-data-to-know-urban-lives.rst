@@ -53,7 +53,7 @@ traffic dataset in my previous researches.
 Bike Share Systems (BSS)
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: http://bit.ly/1z18MAI
+.. image:: http://bit.do/Tz5U
    :width: 500
    :height: 300
    :target: http://en.wikipedia.org/wiki/Bicycle_sharing_system
@@ -76,9 +76,11 @@ initial station network and trip histories with subscriber info (ID, date of
 birth, gender, ZIP code). Each individual trip with start and stop info is
 recorded. The `following years <https://github.com/MinnPost/minnpost-nice-
 ride>`_ removed the subscriber data to protect privacy at the request of `Anton
-Schieffer <http://bit.ly/1wue2ue>`_. A nice visualization of these data is
-given by Alan Palazzolo et al. on MinnPost, `A day in the life of Nice Ride
-bikes <http://www.minnpost.com/data/2012/06/day-life-nice-ride-bikes>`_.
+Schieffer
+<http://antonschieffer.com/2012/12/nice-ride-and-user-privacy-crossing-the-line/>`_. A
+nice visualization of these data is given by Alan Palazzolo et al. on MinnPost,
+`A day in the life of Nice Ride bikes
+<http://www.minnpost.com/data/2012/06/day-life-nice-ride-bikes>`_.
 
 `Hubway <http://www.thehubway.com/>`_ in MA and `CitiBike
 <http://www.citibikenyc.com/>`_ in New York City, US also publish similar trip
@@ -120,10 +122,10 @@ requests since 2010 <https://nycopendata.socrata.com/d/erm2-nwe9>`_ are
 availabe at `NYC OpenData site <https://nycopendata.socrata.com/>`_. You can
 associate this repository with other datasets like transportation services.
 
-.. image:: http://bit.ly/1z17LsF
+.. image:: http://bit.do/Tz5V
    :width: 300
    :height: 300
-   :target: http://bit.ly/1z17Rk1
+   :target: https://nycopendata.socrata.com/d/erm2-nwe9
 
 
 New York Taxi Cab trip
@@ -137,13 +139,16 @@ states that `this data was FOILable
 <http://chriswhong.com/open-data/foil_nyc_taxi/>`_. After publication of data,
 he also work out a stunning visualization of `NYC Taxis: A Day in the Life
 <http://nyctaxi.herokuapp.com/>`_ (The back-end techniques are also described
-in his blogs, `part 1 <http://bit.ly/1z13pBC>`_ and `part 2
-<http://bit.ly/1z13lSA>`_).
+in his blogs, `part 1
+<http://chriswhong.com/data-visualization/taxitechblog1/>`_ and `part 2
+<http://chriswhong.com/open-data/taxi-techblog-2-leaflet-d3-and-other-frontend-fun/>`_).
 
-- `Torrent for 2013 Trip Data (11.0GB) <http://bit.ly/1z13Agj>`_
-- `Torrent for 2013 Fare Data (7.7GB) <http://bit.ly/1z13Bky>`_
+- `Torrent for 2013 Trip Data (11.0GB)
+  <http://chriswhong.com/wp-content/uploads/2014/06/nycTaxiTripData2013.torrent>`_
+- `Torrent for 2013 Fare Data (7.7GB)
+  <http://chriswhong.com/wp-content/uploads/2014/06/nycTaxiFareData2013.torrent>`_
 
-.. image:: http://bit.ly/1z13qFE
+.. image:: http://bit.do/Tz56
    :width: 600
    :height: 300
    :target: http://nyctaxi.herokuapp.com/

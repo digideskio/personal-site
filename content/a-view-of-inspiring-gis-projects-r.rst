@@ -17,8 +17,9 @@ journey in `R`_ world.
 pocket, from data collection, wangling, and transforming, to modeling,
 visualization, and more importantly, communication with others. In this blog, I
 collect and make a list about some inspiring GIS (`Geographic Information
-System <http://bit.ly/1zepNZi>`_) projects (mostly using `R`_) that inspire me
-in my studies and provide me another vantage point to see this world *dataly*.
+System <http://en.wikipedia.org/wiki/Geographic_information_system>`_) projects
+(mostly using `R`_) that inspire me in my studies and provide me another
+vantage point to see this world *dataly*.
 
 Preliminaries
 -------------
@@ -96,7 +97,7 @@ exporting data (both vectorial and raster), plotting, analyzing and making
 maps. Also `github site <https://github.com/Pakillo/R-GIS-tutorial>`_. Here is
 an example to plot Europe countries using the package **rworldmap**:
 
-.. image:: http://bit.ly/1vCOtZb
+.. image:: http://bit.do/Tz6m
    :height: 400
    :width: 400
 
@@ -104,18 +105,22 @@ an example to plot Europe countries using the package **rworldmap**:
 Mapping the World’s Biggest Airlines
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: http://bit.ly/1vCQwwo
+.. image:: http://bit.do/Tz6o
    :height: 300
    :width: 600
 
 This colored map `visualizes the top 7 airlines in the world
-<http://bit.ly/1vCRloK>`_. It is totally generated with open data and R (i.e.,
-a graphical package `ggplot2 <http://ggplot2.org/>`_). The author combines the
-urban area of `dense human habitation <http://bit.ly/1vCScGd>`_ and the airline
-`route data <http://bit.ly/1vCSw7R>`_ from `OpenFlights
-<http://bit.ly/1vCSA7v>`_. The beautiful style inherits the spirit of "`Earth
-at Night <http://apod.nasa.gov/apod/ap001127.html>`_" which is a composite of
-hundreds of pictures made by the orbiting DMSP satellites.
+<http://spatialanalysis.co.uk/2012/06/mapping-worlds-biggest-airlines/>`_. It
+is totally generated with open data and R (i.e., a graphical package `ggplot2
+<http://ggplot2.org/>`_). The author combines the urban area of `dense human
+habitation
+<http://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-urban-area/>`_
+and the airline `route data
+<http://sourceforge.net/p/openflights/code/HEAD/tree/openflights/data/routes.dat?format=raw>`_
+from `OpenFlights <http://openflights.org/data.html>`_. The beautiful style
+inherits the spirit of "`Earth at Night
+<http://apod.nasa.gov/apod/ap001127.html>`_" which is a composite of hundreds
+of pictures made by the orbiting DMSP satellites.
 
 Visualising Topography
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -134,7 +139,7 @@ maps a slightly ethereal appearance to dramatic effect.
 Facebook Friends
 ~~~~~~~~~~~~~~~~
 
-.. image:: http://bit.ly/1odI8A4
+.. image:: http://bit.do/Tz6s
    :height: 300
    :width: 600
 
@@ -142,8 +147,9 @@ You have possibly seen this figure in other media to illustrate the impacts of
 social networks on our lives. This figure is created by `Paul Butler
 <http://paulbutler.org/>`_ when he was an intern in Facebook, 2010. The details
 are given `here <http://on.fb.me/1CucrEA>`_ and `here, too
-<http://bit.ly/1CucKzq>`_. The main challenge is to adjust the plotting order
-and colors of lines regarding the line weight (number of friends).
+<http://paulbutler.org/archives/visualizing-facebook-friends/>`_. The main
+challenge is to adjust the plotting order and colors of lines regarding the
+line weight (number of friends).
 
 
 [TO BE CONTINUED]
