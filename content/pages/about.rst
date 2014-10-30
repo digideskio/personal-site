@@ -20,15 +20,17 @@ Technology at `Xidian University`_, Xi'an, China.
 My research interests come from the measurement and analysis of network
 traffic, especially the renewed models and characteristics of networks traffic,
 with the data mining techniques and high performance processing platforms like
-Network Processor and hadoop/mapreduce framework.
+Network Processors and distributed processing systems like Hadoop/MapReduce or Spark.
 
 If you are interested in my `articles`_, `researches`_, or `projects`_, you can
-reach me via email or other partially instant messages like `github`_:).
+reach me via email or other partially instant messages like `github`_.
+
+Enjoy! :-)
 
 
 .. _Prof. Yaohui Jin: http://front.sjtu.edu.cn/~jinyh/
-.. _Shanghai Jiao Tong Univ.: http://www.sjtu.edu.cn/en
-.. _Xidian University: http://www.xidian.edu.cn/English/index.htm
+.. _Shanghai Jiao Tong Univ.: http://en.sjtu.edu.cn/
+.. _Xidian University: http://en.xidian.edu.cn/
 .. _github: http://www.github.com/caesar0301
 .. _articles: http://hsiamin.com/pages/publications
 .. _researches: http://hsiamin.com/pages/researches
