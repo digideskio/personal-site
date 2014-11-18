@@ -66,3 +66,15 @@ previewing, you can take the `Markdown Preview <https://github.com/revolunet
 multiple markup languages named `OmniMarkupPreviewer
 <https://github.com/timonwong/OmniMarkupPreviewer>`_. The latter is what I
 actually preferred.
+
+
+Misc
+-------
+
+* `Side​Bar​Enhancements <https://sublime.wbond.net/packages/SideBarEnhancements>`_: This plugin enhances your sidebar as standard IDE. Common options include create new files, open files, move, delete etc.
+
+* `TrailingSpaces <https://sublime.wbond.net/packages/TrailingSpaces>`_: Highlighting trailing spaces helps you for code formating, sometimes useful in code debugging (e.g., python indent).
+
+* `DocBlockr <https://sublime.wbond.net/packages/DocBlockr>`_: The DocBlockr package provides creation and code completion of comment blocks that is similar to the default behavior found in other IDEs. It is necessary in Sublime Text if only to provide the expected completion behavior when opening comment blocks with "/\*\*".
+
+* `SublimeLinter <https://sublime.wbond.net/packages/SublimeLinter>`_: A framework for interactive code linting in the Sublime Text 3 editor. Useful linters of specific programming languages are not part of SublimeLinter 3 framework and installed separately. The user can search "Package Control" with prefix "SublimeLinter-xxxx" where "xxxx" is specific language lint, such as "`SublimeLinter-jshint <https://sublime.wbond.net/packages/SublimeLinter-jshint>`_" for JavaScript.

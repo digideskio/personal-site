@@ -37,7 +37,7 @@ STATIC_PATHS = ['images', 'extra/CNAME']
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
 
 ## Plugins
-PLUGIN_PATH = "plugins"
+PLUGIN_PATHS = ["plugins"]
 PLUGINS = ['gravatar']
 
 ## Gravatar settings
