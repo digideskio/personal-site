@@ -1,7 +1,8 @@
 #!/bin/bash
 
 mkdir -p output
-sudo pelican content -o output -s pelicanconf.py
+
+pelican content -o output -s pelicanconf.py
 
 ghp-import output
 
