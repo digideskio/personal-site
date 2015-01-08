@@ -24,13 +24,12 @@ resouces. Under the "Preference -> Advanced" tab, you can change the profile
 path and data path relative to your local folders. This brings about
 convenience in:
 
-- Syncing your library among multiple devices
+- Syncing the library among multiple devices
 - Extending the cloud storage space with 3rd party services, e.g., Dropbox
 
 Enabling this feature is quite easy without any side effects:
 
-1. Copy your **entire** Zotero profile folder into arbitrary folders of your
-   Dropbox;
+1. Copy your **entire** Zotero profile folder into arbitrary folders of Dropbox;
 2. Change both the profile and data path under the advanced tab;
 3. Restart the client.
 
@@ -39,13 +38,14 @@ Use your own tags without auto-generated ones
 
 By default, Zotero can extract and import tags from paper keywords. It
 sometimes makes your organization a mess with thousands of tags classified with
-varying considerations. The best manner is setting up your own tagging system
-after tidying the whole tag database. Two steps are required to be followed:
+varying considerations. The best manner is setting up personalized tagging
+system after tidying the whole tag database. Two steps are required to be
+followed:
 
 1. Disable auto tag importing in "Preference -> General";
 2. Clear existing auto-imported tags in your database (skip if you are using
    Zotero from the scratch);
-3. Manually add tags to your items while adding new stuff.
+3. Manually add tags to items while adding new stuff.
 
 As Zotero manages resources with a SQLite database, some manual operations are
 required to finish the task in Step 2. Here I give a successful way with
@@ -57,8 +57,8 @@ reference to `community discusses in Zotero forum
 (i) Install SQLite browser to modify the Zotero database. A fast success is
     achieved by installing a firefox add-on like `SQLite Manager
     <https://addons.mozilla.org/en-US/firefox/addon/5817/>`_;
-(ii) Open SQLite Manager in your firefox, and connect to Zotero database
-     (``zotero.sqlite`` under the data folder);
+(ii) Open SQLite Manager and connect to Zotero database (``zotero.sqlite``
+     under the data folder);
 (iii) Excute two lines of SQL commands to clear auto-imported tags:
 
 .. code-block:: sql
@@ -74,17 +74,17 @@ the auto-imported ones.
 Integrating citation management with Emacs/Latex
 --------------------------------------------------
 
-One of trival tasks in your researches is organizing your citation stuff while
+One of nontrival tasks in researches is organizing the citation stuff while
 writing papers. If you are using Latex with the Emacs editor, you are lucky to
-introduce Zotero efficiency into your writing. `Zotelo
+introduce Zotero efficiency into the writing. `Zotelo
 <https://github.com/vspinu/zotelo>`_ is a Emacs extension contributed by
-@vspinu to export and synchronize local bib database and your Zotero
+@vspinu to export and synchronize local bib database and Zotero
 library. Installation details introduced by the project contains three main
 requirements:
 
-- Manage your Zotero library with firefox-based client;
+- Manage Zotero library with firefox-based client;
 - Install `MozRepl <https://addons.mozilla.org/en-US/firefox/addon/mozrepl/>`_
   firefox add-one to enable console communication used by Zotelo.
-- Integrating Zotelo extension into your emacs.
+- Integrating Zotelo extension into Emacs.
 
 Voila! You can enjoy efficient citation management in your writing.
