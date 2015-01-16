@@ -3,7 +3,6 @@ Enable LZO compression on Hadoop, Pig and Spark
 
 :date: 2014-05-03 19:20
 :author: caesar0301
-:category: Programming
 :tags: apache, CDH, cloudera, hadoop, LZO, mapreduce, pig, spark
 
 In this tutorial, I will show you how to enable LZO compression on Hadoop, Pig

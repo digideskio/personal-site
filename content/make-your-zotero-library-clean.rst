@@ -3,7 +3,6 @@ Top tricks to make your Zotero more powerful
 
 :date: 2015-01-08
 :author: Xiaming Chen
-:category: Tools
 :tags: zotero, paper
 
 `Zotero <http://www.zotero.org>`_ is *a free, easy-to-use tool to help you

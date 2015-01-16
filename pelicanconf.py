@@ -22,7 +22,7 @@ ARTICLE_URL = 'posts/{date:%Y}/{date:%m}/{date:%d}/{slug}/'
 ARTICLE_SAVE_AS = 'posts/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 
 ## Theme
-THEME = "themes/gum"
+THEME = "themes/zurb-F5-basic"
 COVER_IMG_URL = "images/galaxy-universe-banner-v.jpg"
 DISQUS_SITENAME = "hsiamincom"
 GOOGLE_ANALYTICS = "UA-36744847-3"

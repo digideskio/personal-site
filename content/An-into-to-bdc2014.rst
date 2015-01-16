@@ -3,7 +3,6 @@
 
 :date: 2014-10-30
 :author: Xiaming Chen
-:category: Data mining
 :tags: Spark, Python
 :slug: an-into-to-bdc2014
 

@@ -3,7 +3,6 @@ Leveraging open data to understand urban lives
 
 :date: 2014-10-23
 :author: Xiaming Chen
-:category: Data mining
 :tags: opendata, urban, GIS
 
 Data mining, one of the hottest topics on the media in past years, exhibits a
