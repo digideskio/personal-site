@@ -6,97 +6,114 @@ Enable LZO compression on Hadoop, Pig and Spark
 :category: Programming
 :tags: apache, CDH, cloudera, hadoop, LZO, mapreduce, pig, spark
 
-I will show you in this tutorial how to enable LZO compression on hadoop, pig
-and spark. You reach this page possibly because you encounter the same problem
-as I encountered, usually a frustrating Java exception:
+In this tutorial, I will show you how to enable LZO compression on Hadoop, Pig
+and Spark. I suppose that you have set up a basic hadoop installation
+successfully (if not, please refer to other tutorials for `Hadoop installation
+<http://hadoop.apache.org/docs/stable/>`_).
 
-.. code-block:: java exception
+You reach this page possibly because you encounter the same problem
+as I encountered, usually starting with Java exception:
+
+.. code-block:: java
 
     Caused by: java.lang.ClassNotFoundException: Class com.hadoop.compression.lzo.LzoCodec not found.
 
-I suppose that you have set up a basic hadoop installation successfully
-following other tutorials for example `official hadoop doc`_. As the apache and
-`cloudera`_ are two of the most popular distributions, I will show different
-configurations for both textual and cloudera manager settings. You will walk
-through three steps towards enabling LZO for your hadoop/pig/spark development
-environment, i.e.,
+As the `Apache <http://hadoop.apache.org/>`_ and `Cloudera
+<http://www.cloudera.com>`_ distributions are two of the most popular
+distributions, configurations for both contexts are shown. Briefly, three
+main steps would be walked through towards the final success:
 
-#. Installing native-lzo libraries
-#. Installing hadoop-lzo library
-#. Setting up necessary environment variables correctly (right part
+#. Installing ``native-lzo`` libraries
+#. Installing ``hadoop-lzo`` library
+#. Setting up environment variables correctly (the right part
    consuming my most time)
 
-Step1: Installing native-lzo libraries
-----------------------------------------------
+Step1: Installing ``native-lzo`` libraries
+------------------------------------------
 
-Before installing hadoop-lzo, the `native lzo`_\ is required. You can install
-them manually or facilitating package manager according to your system:
+The `native-lzo library <http://www.oberhumer.com/opensource/lzo/>`_ is
+required for the installation of ``hadoop-lzo``. You can install them manually
+or by facilitating the Package Manager (**NOTE:** Make sure all nodes in the
+cluster have ``native-lzo`` installed.):
 
 - On Mac OS:
 
-.. code-block:: install-on-mac
+.. code-block:: bash
 
     sudo port install lzop lzo2
 
-- On RH or Centos:
+- On RH or CentOS:
 
-.. code-block:: centos
+.. code-block:: bash
 
     sudo yum install lzo liblzo-devel
 
 - On Debian or ubuntu:
 
-.. code-block:: ubuntu
+.. code-block:: bash
 
     sudo apt-get install liblzo2-dev
 
-*Make sure all nodes have native-lzo installed*.
 
-Step2: Installing hadoop-lzo library
----------------------------------------
+Step2: Installing ``hadoop-lzo`` library
+----------------------------------------
 
-As the LZO is GPL'ed, it not shipped with official hadoop package under Apache
-Software License. I recommend `github repo`_ which is a splitable version as
-well as many improvements based on the `google repo`_. You can follow
-`directions on github repo to compile and install it`_. I have not tested it
-because we are running CDH as follows.
+For Apache Hadoop
+~~~~~~~~~~~~~~~~~~~
 
-In CDH 5, HADOOP_LZO is shipped as recommended parcels and you can
-DOWNLOAD/DISTRIBUTE/ACTIVATE it via the Cloudera Manager. Here we are running
-CDH-5 + HADOOP_LZO-0.4.15. By default, the HADOOP_LZO will be installed in
+As the LZO is GPL'ed, it not shipped with official Hadoop distribution which
+takes Apache Software License. I recommend the `Twitter version
+<https://github.com/twitter/hadoop-lzo>`_ which is a forked version of
+`hadoop-gpl-compression
+<https://code.google.com/a/apache-extras.org/p/hadoop-gpl-compression>`_ with
+remarkable improvements. If you are running the official Hadoop, some
+installation structures are provided the `the documentation
+<https://github.com/twitter/hadoop-lzo/blob/master/README.md>`_.
+
+
+For Cloudera Distribution
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+In Cloudera's CDH, ``hadoop-lzo`` is shipped to customers as parcels and you
+can download and distribute it conviniently using the Cloudera Manager. By
+default, the ``hadoop-lzo`` will be installed in
 ``/opt/cloudera/parcels/HADOOP_LZO``.
 
-Step3: Setting up env variables
----------------------------------
+Here we show the configuration on our cluster:
 
-The basic configuration is for hadoop, while Pig is piggying upon this
+* Cloudera CDH 5
+* HADOOP_LZO version 0.4.15
+
+Step3: Setting up env variables
+-------------------------------
+
+For Apache Hadoop/Pig
+~~~~~~~~~~~~~~~~~~~~~
+
+The basic configuration is for Apache Hadoop, while Pig is piggying upon its
 functionality.
 
-**For Hadoop with LZO**, we have to add several fields to ``core-site.xml``,
-``mapred-site.xml`` and ``hadoop-env.sh`` under hadoop ``conf`` folder,
-usually ``$HADOOP_HOME/conf``.
+- Set compression codecs libraries in ``core-site.xml``:
 
-- Add following lines to the ``core-site.xml``:
-
-.. code-block:: config.hadoop
+.. code-block:: xml
 
    <property>
-       <name>io.compression.codecs</name>
-       <value>org.apache.hadoop.io.compress.GzipCodec,
-                org.apache.hadoop.io.compress.DefaultCodec,
-                org.apache.hadoop.io.compress.BZip2Codec,
-                com.hadoop.compression.lzo.LzoCodec,
-                com.hadoop.compression.lzo.LzopCodec
+      <name>io.compression.codecs</name>
+      <value>org.apache.hadoop.io.compress.GzipCodec,
+              org.apache.hadoop.io.compress.DefaultCodec,
+              org.apache.hadoop.io.compress.BZip2Codec,
+              com.hadoop.compression.lzo.LzoCodec,
+              com.hadoop.compression.lzo.LzopCodec
        </value>
    </property>
    <property>
-        <name>io.compression.codec.lzo.class</name>
-        <value>com.hadoop.compression.lzo.LzoCodec</value>
+      <name>io.compression.codec.lzo.class</name>
+      <value>com.hadoop.compression.lzo.LzoCodec</value>
    </property>
 
-- Add following properties to ``mapred-site.xml``:
+- Set MapReduce compression configuration in ``mapred-site.xml``:
 
-.. code-block:: config.hadoop2
+.. code-block:: xml
 
    <property>
        <name>mapred.compress.map.output</name>
@@ -111,30 +128,34 @@ usually ``$HADOOP_HOME/conf``.
        <value>JAVA_LIBRARY_PATH=$JAVA_LIBRARY_PATH:/path/to/your/hadoop-lzo/libs/native</value>
    </property>
 
-Replace the bold part with your local path.
-
 - Append ``HADOOP_CLASSPATH`` to ``hadoop-env.sh``:
 
-.. code-block:: config.hadoop.env
+.. code-block:: bash
 
-   HADOOP_CLASSPATH=$HADOOP_CLASSPATH:/opt/cloudera/parcels/CDH/lib/hadoop/lib/*
+    HADOOP_CLASSPATH=$HADOOP_CLASSPATH:/opt/cloudera/parcels/CDH/lib/hadoop/lib/*
 
-If you are using cloudera manager, you can change previous settings with GUI
-interface; otherwise, skip this paragraph.
+For Cloudera Distribution
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
-- Browse to "mapreduce1-->Configuration,view & edit-->search \`compression\`
-  keyword".
-- Edit **mapred.compress.map.output**, **mapred.map.output.compression.codec**,
-  **MapReduce Client safety valve for mapred-site.xml**, and
-  **io.compression.codecs** with values addressed above.
-- Search \`valve\` to edit **MapReduce Client Environment Snippet for
-  hadoop-env.sh**.
+You can use the Cloudera Manager to enable the same previous settings via GUI
+interface:
+
+* For MapReduce component, change the configuration of corresponding keys as
+  above:
+
+   | **io.compression.codecs**
+   | **mapred.compress.map.output**
+   | **mapred.map.output.compression.codec**
+   | **MapReduce Client safety valve for mapred-site.xml**
+
+* Edit **MapReduce Client Environment Snippet for hadoop-env.sh** to append the
+  ``HADOOP_CLASSPATH`` variable.
 
 At last, restart dependent services in right order and deploy the
 configurations among all nodes. That's it!!. Then you can test the
 functionality with command and get successful messages similar to below:
 
-.. code-block:: success message
+.. code-block:: bash
 
    $ hadoop jar /path/to/hadoop-lzo.jar com.hadoop.compression.lzo.LzoIndexer lzo_logs
    $ 14/05/04 01:13:13 INFO lzo.GPLNativeCodeLoader: Loaded native gpl library
@@ -143,34 +164,27 @@ functionality with command and get successful messages similar to below:
    $ 14/05/04 01:13:14 INFO Configuration.deprecation: hadoop.native.lib is deprecated. Instead, use io.native.lib.available
    $ 14/05/04 01:13:14 INFO lzo.LzoIndexer: Completed LZO Indexing in 0.39 seconds (0.02 MB/s).  Index size is 0.01 KB.
 
-**For Spark with LZO**, this consumes me much time because there are less
-information in searched posts. But the solution is simple based on previous
-knowledge. After installing spark via tar or cloudera manager, you need merely
-to append ``spark-env.sh`` with
+For Spark
+~~~~~~~~~
 
-.. code-block:: config.spark
+This consumes me much time because there are less information in previous
+posts. But the solution is strightforward with previous experience.
+
+No matter the Spark is installed via tar or the Cloudera Manager, you need
+merely to append two path values to ``spark-env.sh``:
+
+.. code-block:: bash
 
    SPARK_LIBRARY_PATH=$SPARK_LIBRARY_PATH:/path/to/your/hadoop-lzo/libs/native
    SPARK_CLASSPATH=$SPARK_CLASSPATH:/path/to/your/hadoop-lzo/java/libs
 
-Now you can use the LZO compression for both map output and final results. A
-comparison of LZO performance is briefly given in `another place`_. This post
-was born from a two-day searching and testing work on the cluster. A related
-question is also asked on `stackoverlfow.com`_ but there are no solutions about
-this up to the finish of this tutorial.
+Ralted posts and questions
+--------------------------
 
-
-Useful links
-------------------
-
-- `Using the LZO Parcel from Cloudera`_
-
-.. _official hadoop doc: http://hadoop.apache.org/docs/stable/
-.. _cloudera: http://www.cloudera.com
-.. _native lzo: http://www.oberhumer.com/opensource/lzo/
-.. _github repo: https://github.com/twitter/hadoop-lzo
-.. _google repo: https://code.google.com/a/apache-extras.org/p/hadoop-gpl-compression
-.. _directions on github repo to compile and install it: https://github.com/twitter/hadoop-lzo/blob/master/README.md
-.. _another place: http://blog.cloudera.com/blog/2009/11/hadoop-at-twitter-part-1-splittable-lzo-compression/
-.. _stackoverlfow.com: http://stackoverflow.com/q/23441142/1320284
-.. _Using the LZO Parcel from Cloudera: http://www.cloudera.com/content/cloudera-content/cloudera-docs/CM4Ent/latest/Cloudera-Manager-Installation-Guide/cmig_install_LZO_Compression.html
+A comparison of LZO performance is given in `another place
+<http://blog.cloudera.com/blog/2009/11/hadoop-at-twitter-part-1-splittable-lzo-compression/>`_. A
+related question is also asked on `StackOverflow
+<http://stackoverflow.com/q/23441142/1320284>`_ but there are no solutions
+about this up to the finish of this tutorial. You maybe also interested in how
+to `use the LZO Parcel from Cloudera
+<http://www.cloudera.com/content/cloudera-content/cloudera-docs/CM4Ent/latest/Cloudera-Manager-Installation-Guide/cmig_install_LZO_Compression.html>`_.
