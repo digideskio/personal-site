@@ -33,8 +33,12 @@ GOOGLE_ANALYTICS = "UA-36744847-3"
 #              ('Contact', 'pages/contact'))
 
 ## Static files
-STATIC_PATHS = ['images', 'extra/CNAME']
-EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
+STATIC_PATHS = ['images', 'extra']
+EXTRA_PATH_METADATA = {
+	'extra/CNAME': {'path': 'CNAME'},
+	'extra/favicon.ico': {'path': 'favicon.ico'},
+	'extra/CNAME': {'path': 'CNAME'},
+}
 
 ## Plugins
 PLUGIN_PATHS = ["plugins"]
