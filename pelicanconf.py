@@ -5,8 +5,8 @@ from __future__ import unicode_literals
 ## Site info
 AUTHOR = u'Xiaming Chen'
 SITENAME = u'StaTrek'
-#SITESUBTITLE = u'What hurts more, the pain of hard work or the pain of regret?'
-SITEURL = 'http://hsiamin.com'
+SITESUBTITLE = u''
+SITEURL = 'http://xiaming.me'
 LOCALE = "en_US.UTF-8"
 
 ## Basic settings
@@ -35,7 +35,6 @@ GOOGLE_ANALYTICS = "UA-36744847-3"
 ## Static files
 STATIC_PATHS = ['images', 'extra']
 EXTRA_PATH_METADATA = {
-	'extra/CNAME': {'path': 'CNAME'},
 	'extra/favicon.ico': {'path': 'favicon.ico'},
 	'extra/CNAME': {'path': 'CNAME'},
 }
@@ -45,10 +44,10 @@ PLUGIN_PATHS = ["plugins"]
 PLUGINS = ['gravatar']
 
 ## Gravatar settings
-AUTHOR_EMAIL = "caesar0301@163.com"
+AUTHOR_EMAIL = "chenxm35@gmail.com"
 
 ## Social widgets
-SOCIAL = (('github', 'https://github.com/caesar0301/'),
-          ('twitter', 'https://twitter.com/xiamingc'),
-          ('weibo', 'http://weibo.com/fuckinmylife'),
-          ('rss', 'http://hsiamin.com/feeds/all.atom.xml'))
+SOCIAL = (('Github', 'https://github.com/caesar0301/'),
+          ('Twitter', 'https://twitter.com/xiamingc'),
+          ('Weibo', 'http://weibo.com/fuckinmylife'),
+          ('RSS', 'http://hsiamin.com/feeds/all.atom.xml'))
