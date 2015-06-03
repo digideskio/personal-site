@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 ## Site info
 AUTHOR = u'Xiaming Chen'
 SITENAME = u'StaTrek'
-SITESUBTITLE = u''
+SITESUBTITLE = u'为，可为，可不为！'
 SITEURL = 'http://xiaming.me'
 LOCALE = "en_US.UTF-8"
 
@@ -50,4 +50,4 @@ AUTHOR_EMAIL = "chenxm35@gmail.com"
 SOCIAL = (('Github', 'https://github.com/caesar0301/'),
           ('Twitter', 'https://twitter.com/xiamingc'),
           ('Weibo', 'http://weibo.com/fuckinmylife'),
-          ('RSS', 'http://hsiamin.com/feeds/all.atom.xml'))
+          ('RSS', 'http://xiaming.me/feeds/all.atom.xml'))

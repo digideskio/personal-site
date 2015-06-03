@@ -1,11 +1,12 @@
 Publications
-############################
+############
+
 :date: 2014-06-25 18:00
 :author: caesar0301
 :slug: publications
 
 2014
--------------
+----
 
 - **Chen, Xiaming**; Jin, Yaohui; Qiang, Siwei; Hu, Weisheng; Jiang, Kaida;
   *Analyzing and Modeling Spatio-Temporal Dependence of Cellular Traffic at
@@ -19,16 +20,24 @@ Publications
 
 
 2013
--------------
+----
 
 - Gong, Wenjuan; **Chen, Xiaming**; Qiang, Siwei; Jin, Yaohui; *Trajectory
   pattern change analysis in campus WiFi networks*, Proceedings of the Second
   ACM SIGSPATIAL International Workshop on Mobile Geographic Information
   Systems,1-8,2013,ACM.
 
+2012
+----
+
+- **Chen, Xiaming**; Jin, Yaohui; *Web Page Identification from Network Traffic
+  with Support Vector Machine*,Technical Report, 2012, Shanghai Jiao Tong
+  Univ. [`paper <http://pan.baidu.com/s/1pJHWVaj>`_, `slides
+  <http://pan.baidu.com/s/1gdJ9gyv>`_]
+
 
 2011
---------------
+----
 
 - Yang, Xin; **Chen, Xiaming**; Jin, Yaohui; *A high-speed real-time HTTP
   performance measurement architecture based on network processor*, ICT

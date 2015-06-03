@@ -6,12 +6,12 @@ About Me
 :slug: about
 
 
-.. figure:: http://bit.do/HZjk
+.. figure:: http://xiaming.me/images/myphoto.jpg
    :height: 300
-   :width: 450
+   :width: 300
    :alt: myphoto
 
-   **Shot by Gong, at Dishui Lake, Shanghai, 2014**
+   **© Rourou [121°56'37"E 30°53'49"N], 2014**
 
 I am now a Ph.D. candidate with `Prof. Yaohui Jin`_ at `Shanghai Jiao Tong
 Univ.`_. I received my B.S. (2010) of Optical Information and Science
@@ -39,4 +39,14 @@ If you are interested in any of my `articles
 <http://xiaming.me/pages/projects>`_, you can reach me via email or other ways
 found in the `contact page <http://xiaming.me/pages/contact.html>`_.
 
-Enjoy! :-)
+
+Contact
+-------
+
+Email
+  chen@xiaming.me
+Mail
+  Room 306, Network and Information Center
+  800 Dongchuan Rd., Shanghai Jiao Tong University,
+  Shanghai, China, 200240
+
