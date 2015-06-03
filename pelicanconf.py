@@ -50,4 +50,6 @@ AUTHOR_EMAIL = "chenxm35@gmail.com"
 SOCIAL = (('Github', 'https://github.com/caesar0301/'),
           ('Twitter', 'https://twitter.com/xiamingc'),
           ('Weibo', 'http://weibo.com/fuckinmylife'),
+          ('LinkedIn', 'https://www.linkedin.com/in/xiamingc'),
+          ('OMNILab', 'http://omnilab.sjtu.edu.cn'),
           ('RSS', 'http://xiaming.me/feeds/all.atom.xml'))
