@@ -4,8 +4,8 @@ from __future__ import unicode_literals
 
 ## Site info
 AUTHOR = u'Xiaming Chen'
-SITENAME = u'StaTrek'
-SITESUBTITLE = u'为，可为，可不为！'
+SITENAME = u'InnoTrek'
+SITESUBTITLE = u'以创维新'
 SITEURL = 'http://xiaming.me'
 LOCALE = "en_US.UTF-8"
 

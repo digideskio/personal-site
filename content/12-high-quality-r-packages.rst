@@ -8,8 +8,8 @@ A list of R packages you should put under your pillow
 
 R在统计分析、机器学习、以及绘图上有着丰富的功能，基础安装包里的函数能够满足基本的需求，如果需要更多样化、复杂的数据处理，可以试着使用以下工具:
 
-数据清洗转换
-----------------------
+数据清洗转换 (Data wangling)
+-----------------------------
 
 * DescTools (Tools for describing data and descriptive statistics)
 * dplyr (面向data.frame，plyr的下次迭代，让R具有流式数据处理的风格）
@@ -18,8 +18,8 @@ R在统计分析、机器学习、以及绘图上有着丰富的功能，基础�
 * reshape2 (功能强大的melt和cast数据融合函数，reshape简版)
 * tidyr (功能简单实用的长宽数据变化，reshape2简版)
 
-绘图及颜色
--------------
+绘图及颜色 (Colors and plots)
+-----------------------------
 
 * colorRamps (多种颜色梯度生成，如matlab风格的颜色)
 * Colors in ggplot2 (http://bit.do/SDnT)
@@ -36,8 +36,8 @@ R在统计分析、机器学习、以及绘图上有着丰富的功能，基础�
 * rgl (支持3D图形、视频生成，包括多种格式)
 * scatterplot3d (绘制3D的散点图或平面)
 
-模型和机器学习
--------------------
+模型和机器学习 (Machine learning)
+---------------------------------
 
 * caret (The “go to” package for machine learning, classification and regression training)
 * depmixS4 (Hidden Markov Model及其他dependent mixture model实现)
@@ -48,8 +48,8 @@ R在统计分析、机器学习、以及绘图上有着丰富的功能，基础�
 * psych (源自心理学研究人员，table和相关分析等)
 * survMisc (Relatively new package with various functions for survival data extending the methods available in the survival package.)
 
-随机分布参数估计
-----------------------
+随机分布参数估计 (Parameters estimation)
+----------------------------------------
 
 * fBasics (包含skewness和kurtosis函数)
 * fitdistrplus (对MASS包参数估计函数的加强，同时有灵活的QQ图以及分布对比图)
@@ -62,8 +62,8 @@ R在统计分析、机器学习、以及绘图上有着丰富的功能，基础�
 * poweRlaw (重尾分布参数估计)
 * 参数估计函数：optim{stats}, mle{stats4}, fitdistr{MASS}
 
-Misc工具箱
---------------------
+Misc工具箱 (Misc tookit)
+---------------------------
 
 * classInt (包含离散化函数，如绘图中颜色的分阶)
 * devtools (Package development tools)
@@ -73,14 +73,21 @@ Misc工具箱
 * misc3d (Misc 3d plots including isosurfaces)
 * miscet (Miscellaneous R tools to simplify the working with data types and formats including functions for working with data frames and character strings)
 * miscFuncs (Some functions for Kalman filters)
-* parallel (提供mclapply对lapply()和mapply()实现并行化处理。)
 * scales (Scales map data to aesthetics.)
 * sfsmisc (eaxis的对数坐标轴可实现类似magicaxis的效果)
 * squash (Color-based visualization of multivariate data. Map numeric values to colors)
 * stringr (Convenience wrappers for functions for manipulating strings)
 
-地图工具
-------------------
+优化工具 (Speedup)
+--------------------
+
+* parallel (提供mclapply对lapply()和mapply()实现并行化处理。)
+* doParallel (The "parallel backend" for `foreach` package. Must be enabled to use `%dopar%`.)
+* foreach (Using foreach without side effects also facilitates executing the loop in parallel.)
+* iterators (Support for iterators, which allow a programmer to traverse through all the elements of a vector, list, or other collection of data.)
+
+地图工具 (Map tools)
+----------------------
 
 * deldir (Calculates the Delaunay triangulation and the Dirichlet or Voronoi tessellation (with respect to the entire plane) of a planar point set.)
 * geosphere (functions to calculate great circle distance.)
@@ -94,8 +101,8 @@ Misc工具箱
 * osmar (Interfaces to OSM.)
 * splancs (Spatial Point-Pattern Analysis code in Splus.)
 
-时空数据分析包
----------------
+时空数据分析包 (Spatiotemporal)
+----------------------------------
 
 * CompRandFld - Collect a set of procedures for the analysis of Random Fields by Composite Likelihood methods.
 * fields (Fields is for curve, surface and function fitting with an emphasis on splines, spatial data and spatial statistics.)
@@ -111,8 +118,8 @@ Misc工具箱
 * xts (Uniform handling of R's different time-based data classes by extending zoo)
 * zoo (For Regular and Irregular Time Serie)
 
-空间相关性
--------------------------
+空间相关性 (Spatial correlation)
+-----------------------------------
 
 * ade4 - This package has function gearymoran that calculates Moran's I and Geary's c. Does not plot correlograms.
 * ape - Moran's I test (function Moran.I) for spatial and phylogenetic autocorrelation (based on normal approximation, not on randomizations = fast). Does not plot correlograms.
@@ -125,8 +132,8 @@ Misc工具箱
 
 * 参考: http://www.r-bloggers.com/spatial-correlograms-in-r-a-mini-overview/
 
-其他资源
--------------
+其他资源 (Public domains)
+-----------------------------
 
 * R-bloggers: http://www.r-bloggers.com/
 * Quick R: http://www.statmethods.net/
