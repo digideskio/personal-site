@@ -24,8 +24,8 @@ ARTICLE_SAVE_AS = 'posts/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 ## Theme
 THEME = "themes/zurb-F5-basic"
 COVER_IMG_URL = "images/galaxy-universe-banner-v.jpg"
-DISQUS_SITENAME = "hsiamincom"
-GOOGLE_ANALYTICS = "UA-36744847-3"
+# DISQUS_SITENAME = "xiamingdotme"
+# GOOGLE_ANALYTICS = "UA-36744847-3"
 # MENUITEMS = (('About', 'pages/about'),
 #              ('Publications', 'pages/publications'),
 #              ('Researches', 'pages/researches'),
