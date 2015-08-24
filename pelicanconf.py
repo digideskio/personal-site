@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 ## Site info
 AUTHOR = u'Xiaming Chen'
 SITENAME = u'InnoTrek'
-SITESUBTITLE = u'以创维新'
+# SITESUBTITLE = u'以创维新'
 SITEURL = 'http://xiaming.me'
 LOCALE = "en_US.UTF-8"
 
@@ -22,10 +22,10 @@ ARTICLE_URL = 'posts/{date:%Y}/{date:%m}/{date:%d}/{slug}/'
 ARTICLE_SAVE_AS = 'posts/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 
 ## Theme
-THEME = "themes/zurb-F5-basic"
+THEME = "pelican-themes/zurb-F5-basic"
 COVER_IMG_URL = "images/galaxy-universe-banner-v.jpg"
-# DISQUS_SITENAME = "xiamingdotme"
-# GOOGLE_ANALYTICS = "UA-36744847-3"
+DISQUS_SITENAME = "xiamingdotme"
+#GOOGLE_ANALYTICS = "UA-36744847-3"
 # MENUITEMS = (('About', 'pages/about'),
 #              ('Publications', 'pages/publications'),
 #              ('Researches', 'pages/researches'),
