@@ -30,23 +30,18 @@ current topic I am engaging in is analyzing and understanding human spatial and
 temporal behaviours from networking perspective. The derived results are
 essential to uncover the general patterns and universal laws of human mobility,
 and are also promising for the optimization and future protocol designs in
-mobile networks. The detailed intro about each sub-topic is given at `this
-place <http://xiaming.me/pages/researches.html>`_.
-
-If you are interested in any of my `articles
-<http://xiaming.me/pages/publications>`_, `researches
-<http://xiaming.me/pages/researches>`_, or `projects
-<http://xiaming.me/pages/projects>`_, you can reach me via email or other ways
-found in the `contact page <http://xiaming.me/pages/contact.html>`_.
+mobile networks. The detailed intro about each sub-topic is given `elsewhere <http://xiaming.me/pages/researches.html>`_. If you are interested in any of my articles, researches, or projects, you can reach me via email or social media
+found below.
 
 
-Contact
--------
+CV
+--
+
+- `中文简历 <http://xiaming.me/mycv_ch.pdf>`_
+- `English Version <http://xiaming.me/mycv_en.pdf>`_
+
 
 Email
-  chen@xiaming.me
-Mail
-  Room 306, Network and Information Center
-  800 Dongchuan Rd., Shanghai Jiao Tong University,
-  Shanghai, China, 200240
+-------
 
+- chen@xiaming.me

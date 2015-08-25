@@ -37,6 +37,8 @@ STATIC_PATHS = ['images', 'extra']
 EXTRA_PATH_METADATA = {
 	'extra/favicon.ico': {'path': 'favicon.ico'},
 	'extra/CNAME': {'path': 'CNAME'},
+	'extra/mycv_ch.pdf': {'path': 'mycv_ch.pdf'},
+	'extra/mycv_en.pdf': {'path': 'mycv_en.pdf'}
 }
 
 ## Plugins

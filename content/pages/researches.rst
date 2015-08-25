@@ -6,36 +6,19 @@ Researches
 :slug: researches
 
 
-Distributed PCAP Analysis Platform (DPCAP)
-------------------------------------------
+Large-scale Human Mobility Analysis
+-----------------------------------
 
-Network traffic processing may become the next big-data-nut to be smashed by
-both network managers and researchers. A tremendous amount of real-time bits
-flow over our network devices and pipes everyday. Network managers face the
-challenges of analyzing the data with some time limit to find abnormal
-behaviours (e.g., attacks) and network failures with some complicated
-processing. For example, the Deep Packet Inspection (DPI), a signature-based
-protocol classification method, needs to inspect flow bytes covering the whole
-stream where the signature insertion point is unknown and unstable over
-time. Another example comes from network traffic miners who analyze traffic and
-protocol characteristics. The existing methods for these tasks are usually
-running on one machine (using tools like `libpcap <http://www.tcpdump.org/>`_),
-which is a really time-consuming process, especially when the offline PCAP
-files are huge that can not be handled by a single or several machines.
-
-This project aims to face these challenges with the distributed processing
-platform like Hadoop or, generally, parallel programming frameworks like
-MapReduce. Recently, a simple PCAP processing library based on Hadoop, i.e.,
-`hadoop-pcap-lib <https://github.com/RIPE-NCC/hadoop-pcap>`_, is introduced by
-the engineers of RIPE NCC to meed their requirements of processing DNS
-traffic. Differently and to go further, our DPCAP is designed as a distributed
-platform by modularization of functions based on hadoop-pcap-lib (and related
-libraries developed). Some general application modules will be developed like
-packet processing module (PPM) and flow processing module (FPM). The general
-interfaces will be designed to meet users' specific module development without
-considering the basic processing details. Two specific modules of application
-identification module (AIM) based on nDPI and flow feature generation module
-(FFM) are both on the development roadmap.
+Mobility networks are essential in the history of human society, from
+population and commodity exchange to culture and civilization expansion.  Since
+the seminal migration model of Ravenstein a hard century ago, generations of
+social and physical scientists have made great efforts towards universal laws
+that naturally govern human movement.  Technology of man-carried equipment and
+wearable sensors, as well as boosting our communication and monitoring, brings
+about huge amounts of data about human daily activities. Inspecting such
+activity patterns makes promising suggestions and conclusions on urban
+transport plan, epidemic prediction, and the estimation of economic exchange
+and population migration.
 
 
 Optimization of User-perceived Mobile Performance
@@ -69,16 +52,33 @@ the content to be delivered, improvement of network infrastructures, and
 development of protocols etc.
 
 
-Large-scale Human Mobility Analysis
------------------------------------
+Distributed PCAP Analysis Platform (DPCAP)
+------------------------------------------
 
-Mobility networks are essential in the history of human society, from
-population and commodity exchange to culture and civilization expansion.  Since
-the seminal migration model of Ravenstein a hard century ago, generations of
-social and physical scientists have made great efforts towards universal laws
-that naturally govern human movement.  Technology of man-carried equipment and
-wearable sensors, as well as boosting our communication and monitoring, brings
-about huge amounts of data about human daily activities. Inspecting such
-activity patterns makes promising suggestions and conclusions on urban
-transport plan, epidemic prediction, and the estimation of economic exchange
-and population migration.
+Network traffic processing may become the next big-data-nut to be smashed by
+both network managers and researchers. A tremendous amount of real-time bits
+flow over our network devices and pipes everyday. Network managers face the
+challenges of analyzing the data with some time limit to find abnormal
+behaviours (e.g., attacks) and network failures with some complicated
+processing. For example, the Deep Packet Inspection (DPI), a signature-based
+protocol classification method, needs to inspect flow bytes covering the whole
+stream where the signature insertion point is unknown and unstable over
+time. Another example comes from network traffic miners who analyze traffic and
+protocol characteristics. The existing methods for these tasks are usually
+running on one machine (using tools like `libpcap <http://www.tcpdump.org/>`_),
+which is a really time-consuming process, especially when the offline PCAP
+files are huge that can not be handled by a single or several machines.
+
+This project aims to face these challenges with the distributed processing
+platform like Hadoop or, generally, parallel programming frameworks like
+MapReduce. Recently, a simple PCAP processing library based on Hadoop, i.e.,
+`hadoop-pcap-lib <https://github.com/RIPE-NCC/hadoop-pcap>`_, is introduced by
+the engineers of RIPE NCC to meed their requirements of processing DNS
+traffic. Differently and to go further, our DPCAP is designed as a distributed
+platform by modularization of functions based on hadoop-pcap-lib (and related
+libraries developed). Some general application modules will be developed like
+packet processing module (PPM) and flow processing module (FPM). The general
+interfaces will be designed to meet users' specific module development without
+considering the basic processing details. Two specific modules of application
+identification module (AIM) based on nDPI and flow feature generation module
+(FFM) are both on the development roadmap.
