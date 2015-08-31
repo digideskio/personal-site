@@ -52,7 +52,7 @@ traffic dataset in my previous researches.
 Bike Share Systems (BSS)
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: http://bit.do/Tz5U
+.. image:: http://7xlgp4.com1.z0.glb.clouddn.com/blog-post08-hangzhou_bike_sharing_station.jpg
    :width: 500
    :height: 300
    :target: http://en.wikipedia.org/wiki/Bicycle_sharing_system
@@ -121,7 +121,7 @@ requests since 2010 <https://nycopendata.socrata.com/d/erm2-nwe9>`_ are
 availabe at `NYC OpenData site <https://nycopendata.socrata.com/>`_. You can
 associate this repository with other datasets like transportation services.
 
-.. image:: http://bit.do/Tz5V
+.. image:: http://7xlgp4.com1.z0.glb.clouddn.com/blog-post08-nyc311.png
    :width: 300
    :height: 300
    :target: https://nycopendata.socrata.com/d/erm2-nwe9
@@ -147,7 +147,7 @@ in his blogs, `part 1
 - `Torrent for 2013 Fare Data (7.7GB)
   <http://chriswhong.com/wp-content/uploads/2014/06/nycTaxiFareData2013.torrent>`_
 
-.. image:: http://bit.do/Tz56
+.. image:: http://7xlgp4.com1.z0.glb.clouddn.com/blog-post08-nyc-taxi-one-day.png
    :width: 600
    :height: 300
    :target: http://nyctaxi.herokuapp.com/

@@ -96,17 +96,13 @@ exporting data (both vectorial and raster), plotting, analyzing and making
 maps. Also `github site <https://github.com/Pakillo/R-GIS-tutorial>`_. Here is
 an example to plot Europe countries using the package **rworldmap**:
 
-.. image:: http://bit.do/Tz6m
+.. image:: http://7xlgp4.com1.z0.glb.clouddn.com/blog-post07-rworldmap.png
    :height: 400
    :width: 400
 
 
-Mapping the World’s Biggest Airlines
+Mapping the world’s biggest airlines
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. image:: http://bit.do/Tz6o
-   :height: 300
-   :width: 600
 
 This colored map `visualizes the top 7 airlines in the world
 <http://spatialanalysis.co.uk/2012/06/mapping-worlds-biggest-airlines/>`_. It
@@ -121,12 +117,13 @@ inherits the spirit of "`Earth at Night
 <http://apod.nasa.gov/apod/ap001127.html>`_" which is a composite of hundreds
 of pictures made by the orbiting DMSP satellites.
 
-Visualising Topography
-~~~~~~~~~~~~~~~~~~~~~~
-
-.. image:: http://topography.geotheory.co.uk/slides/world.png
+.. image:: http://7xlgp4.com1.z0.glb.clouddn.com/blog-post07-airlines.jpg
    :height: 300
    :width: 600
+
+
+Visualising topography
+~~~~~~~~~~~~~~~~~~~~~~
 
 `Robin Edwards <http://geotheory.co.uk/>`_, a researcher at UCL CASA, has
 created these `stunning topographic
@@ -135,12 +132,13 @@ the high resolution elevation data provided by the British Oceanographic Data
 Centre. The transitions from black (high areas) to blue (low areas) give the
 maps a slightly ethereal appearance to dramatic effect.
 
-Facebook Friends
-~~~~~~~~~~~~~~~~
-
-.. image:: http://bit.do/Tz6s
+.. image:: http://7xlgp4.com1.z0.glb.clouddn.com/blog-post07-topography.png
    :height: 300
    :width: 600
+
+
+Facebook friends network
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 You have possibly seen this figure in other media to illustrate the impacts of
 social networks on our lives. This figure is created by `Paul Butler
@@ -149,6 +147,10 @@ are given `here <http://on.fb.me/1CucrEA>`_ and `here, too
 <http://paulbutler.org/archives/visualizing-facebook-friends/>`_. The main
 challenge is to adjust the plotting order and colors of lines regarding the
 line weight (number of friends).
+
+.. image:: http://7xlgp4.com1.z0.glb.clouddn.com/blog-post07-facebook-network.jpg
+   :height: 300
+   :width: 600
 
 
 [TO BE CONTINUED]
