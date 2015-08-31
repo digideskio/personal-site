@@ -117,6 +117,7 @@ with multiple sets of parameters to get the satisfied result.
 .. image:: http://7xlgp4.com1.z0.glb.clouddn.com/blog-post15-correction-comparison.png
     :alt: performance
     :scale: 90%
+    :target: http://7xlgp4.com1.z0.glb.clouddn.com/blog-post15-correction-comparison.png
 
 **Appendix:**
 
