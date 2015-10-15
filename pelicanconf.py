@@ -33,7 +33,7 @@ THEME = "pelican-themes/fresh"
 ## Builtin
 DISQUS_SITENAME = "xiamingdotme"
 GOOGLE_ANALYTICS = "UA-36744847-3"
-MENUITEMS = ()
+MENUITEMS = (('Blogs', '/'),)
 GITHUB_URL = 'http://github.com/caesar0301'
 SOCIAL = (('Github', 'https://github.com/caesar0301/'),
           ('Twitter', 'https://twitter.com/xiamingc'),

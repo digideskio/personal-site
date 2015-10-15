@@ -3,7 +3,7 @@ A view of inspiring GIS projects in R
 
 :date: 2014-10-16
 :author: Xiaming Chen
-:tags: spatial, GIS, R
+:tags: GIS, R
 
 `R`_ is a free software for statistical computing and graphics (as declaimed in
 its project vision). But in my view, its horizon is beyond that thanking to its

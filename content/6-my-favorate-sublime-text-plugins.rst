@@ -3,7 +3,7 @@ Favorite Sublime Text Plugins in My Toolkit
 
 :date: 2014-10-14
 :author: Xiaming Chen
-:tags: editor, plugins
+:tags: Sublime
 
 `Sublime Text`_ is one of my favorite editors (emacs, of course, as another)
 for daily programming, writing tasks. One of its appealing features is the

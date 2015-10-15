@@ -3,7 +3,7 @@ SCI journals and impacts on network science
 
 :date: 2015-09-18
 :author: Xiaming Chen
-:tags: Paper
+:tags: ComplexNetwork
 
 
 - Nature  41\.456

@@ -3,7 +3,7 @@
 
 :date: 2014-05-07 05:07
 :author: caesar0301
-:tags: data mining, hypothesis testing, R, t-test
+:tags: DataMining, R, t-test
 :slug: 统计中得样本检验基础和R实践
 
 本文总结了\ `R in Action`_\ 一书中提到的关于样本检验的内容，以概要的形式提供给读

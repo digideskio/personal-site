@@ -3,7 +3,7 @@ Useful IntelliJ IDE Shortcuts on Mac OS X
 
 :date: 2015-08-20
 :author: Xiaming Chen
-:tags: tools
+:tags: Tools
 
 IntelliJ is my excellent partner in programming and project review.
 I make up this list for daily referrence and share with community.

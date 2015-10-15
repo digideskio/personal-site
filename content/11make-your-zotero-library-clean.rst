@@ -3,7 +3,7 @@ Top tricks to make your Zotero more powerful
 
 :date: 2015-01-08
 :author: Xiaming Chen
-:tags: zotero, paper
+:tags: Zotero
 
 `Zotero <http://www.zotero.org>`_ is *a free, easy-to-use tool to help you
 collect, organize, cite, and share your research sources*. It support a wide

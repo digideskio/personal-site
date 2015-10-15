@@ -3,7 +3,7 @@ Python treelib 1.2.7 ready on PyPi
 
 :date: 2014-04-26 17:37
 :author: caesar0301
-:tags: Python, tree
+:tags: Python
 
 `treelib`_ is an efficient and useful implementation of `tree data
 structure`_ in Python. Now its newest version of 1.2.7 is available on
