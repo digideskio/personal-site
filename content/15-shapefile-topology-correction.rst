@@ -5,7 +5,7 @@ A tutorial on topology correction of shapefiles using GRASS
 :author: Xiaming Chen
 :tags: GIS, GRASS
 
-**Abstract**: Here I am introducing my practical expeirience in cleansing the
+**Abstract**: I am introducing my practical expeirience in cleansing the
 shapefile using `GRASS <https://grass.osgeo.org/>`_, which is an open-source
 platform to do scientific analysis on spatial data.
 

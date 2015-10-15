@@ -52,18 +52,16 @@ Quick JavaDoc Popup to show the JavaDoc of the method or class at the text curso
 
 Select in Popup to quickly select the currently edited element in any view: `Alt` + `F1`
 
-Go to declaration: `CMD` + `B`
+Go to declaration/implementation: `CMD` + `B` / `CMD` + `Alt` + `B`
 
-Go forward and backward: `CMD` + `Alt` + `Right` &  `CMD` + `Alt` + `Left`
-
-Go to implementation: `CMD` + `Alt` + `B`
+Go forward/backward: `CMD` + `Alt` + `Right` /  `CMD` + `Alt` + `Left`
 
 Go to super-method/super-class: `CMD` + `U`
 
-Quick view the usages/in a panel: `CMD` + `Alt` + `F7` / `Alt` + `F7`
+Quick view the usages globally/in current file: `CMD` + `Alt` + `F7` / `Alt` + `F7`
 
-Next/previous highlighted error: `F2`/`Shift` + `F2`
+Next/previous highlighted error: `F2` / `Shift` + `F2`
 
-File Structure popup: `CMD` + `F12` / `CMD` + `7`
+File Structure popup/panel: `CMD` + `F12` / `CMD` + `7`
 
 Caller/callee hierarchy: `Ctrl` + `Alt` + `H`
