@@ -121,7 +121,7 @@ requests since 2010 <https://nycopendata.socrata.com/d/erm2-nwe9>`_ are
 availabe at `NYC OpenData site <https://nycopendata.socrata.com/>`_. You can
 associate this repository with other datasets like transportation services.
 
-.. image:: http://7xlgp4.com1.z0.glb.clouddn.com/blog-post08-nyc311.png
+.. image:: http://7xlgp4.com1.z0.glb.clouddn.com/blog-post08-nyc311.jpg
    :width: 300
    :height: 300
    :target: https://nycopendata.socrata.com/d/erm2-nwe9

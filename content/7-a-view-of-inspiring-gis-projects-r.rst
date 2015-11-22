@@ -97,6 +97,7 @@ maps. Also `github site <https://github.com/Pakillo/R-GIS-tutorial>`_. Here is
 an example to plot Europe countries using the package **rworldmap**:
 
 .. image:: http://7xlgp4.com1.z0.glb.clouddn.com/blog-post07-rworldmap.png
+   :alt: worldmap
    :height: 400
    :width: 400
 
@@ -118,6 +119,7 @@ inherits the spirit of "`Earth at Night
 of pictures made by the orbiting DMSP satellites.
 
 .. image:: http://7xlgp4.com1.z0.glb.clouddn.com/blog-post07-airlines.jpg
+   :alt: airlines
    :height: 300
    :width: 600
 
@@ -133,6 +135,7 @@ Centre. The transitions from black (high areas) to blue (low areas) give the
 maps a slightly ethereal appearance to dramatic effect.
 
 .. image:: http://7xlgp4.com1.z0.glb.clouddn.com/blog-post07-topography.png
+   :alt: topography
    :height: 300
    :width: 600
 
@@ -149,6 +152,7 @@ challenge is to adjust the plotting order and colors of lines regarding the
 line weight (number of friends).
 
 .. image:: http://7xlgp4.com1.z0.glb.clouddn.com/blog-post07-facebook-network.jpg
+   :alt: facebook-worldmap
    :height: 300
    :width: 600
 
