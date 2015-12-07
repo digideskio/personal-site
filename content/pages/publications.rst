@@ -5,6 +5,14 @@ Publications
 :author: caesar0301
 :slug: publications
 
+2015
+----
+
+- **Chen, Xiaming**; Wang Haiyang, Qiang, Siwei; Wang, Yongkun; Jin, Yaohui;
+  *Discovering mesostructures of human mobility from city-scale data*, Submission to TBD.
+
+
+
 2014
 ----
 
@@ -14,8 +22,7 @@ Publications
   [`Project <https://github.com/caesar0301/MSTD>`_]
 
 - **Chen, Xiaming**; Qiang, Siwei; Wei, Jianwen; Jiang, Kaida; Jin, Yaohui;
-  *Towards Understanding User Engagement in Mobile Networks: A Perception
-  Perspective*, Submission to Elsevier Pervasive and Mobile Computing.
+  *Passive profiling of mobile engaging behavior via user-end application performance assessment*, Submission to PMC.
 
 
 
