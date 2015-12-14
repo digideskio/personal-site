@@ -6,6 +6,9 @@ Publications
 :slug: publications
 
 
+Papers
+======
+
 - **Chen, Xiaming**; Wang Haiyang, Qiang, Siwei; Wang, Yongkun; Jin, Yaohui; *Discovering mesostructures of human
   mobility from city-scale data*, Submission to Trans. on Big Data (TBD).
 
@@ -14,10 +17,6 @@ Publications
 
 - **Chen, Xiaming**; Jin, Yaohui; Qiang, Siwei; Hu, Weisheng; Jiang, Kaida; *Analyzing and Modeling Spatio-Temporal
   Dependence of Cellular Traffic at City Scale*, ICC, 2015. [`Project <https://github.com/caesar0301/MSTD>`_]
-
-- **Chen, Xiaming**; Jin, Yaohui; *Web Page Identification from Network Traffic with Support Vector Machine*,Technical
-  Report, 2012, Shanghai Jiao Tong Univ. [`paper <http://pan.baidu.com/s/1pJHWVaj>`_, `slides
-  <http://pan.baidu.com/s/1gdJ9gyv>`_]
 
 - Gong, Wenjuan; **Chen, Xiaming**; Qiang, Siwei; Jin, Yaohui; *Trajectory pattern change analysis in campus WiFi
   networks*, Proceedings of the Second ACM SIGSPATIAL International Workshop on Mobile Geographic Information
@@ -29,6 +28,18 @@ Publications
 - Tang, Jianxiong; Jin, Yaohui; Chang, Zhijuan; **Chen, Xiaming**; Ye, Tong; Hu, Weisheng; *Genetic algorithm
   optimization of tunable wavelength selection photonic switch using a microring resonator*,Optical
   Engineering,50,094002,2011.
+
+Tech. Reports
+=============
+
+- **Chen, Xiaming**; Jin, Yaohui; *Web Page Identification from Network Traffic with Support Vector Machine*,Technical
+  Report, 2012, Shanghai Jiao Tong Univ. [`paper <http://pan.baidu.com/s/1pJHWVaj>`_, `slides
+  <http://pan.baidu.com/s/1gdJ9gyv>`_]
+
+Patents
+=======
+
+- **陈夏明**，金耀辉，杨鑫，韦建文，叶伟，*被动网络性能测量系统及其页面识别方法*，2011, 专利号201110186461.9
 
 
 You can find the bibliobraphy of all papers on my `Google Scholar`_.
