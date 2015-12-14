@@ -123,6 +123,7 @@ Misc工具箱 (Misc tookit)
 
 * ade4 - This package has function gearymoran that calculates Moran's I and Geary's c. Does not plot correlograms.
 * ape - Moran's I test (function Moran.I) for spatial and phylogenetic autocorrelation (based on normal approximation, not on randomizations = fast). Does not plot correlograms.
+* geosphere - a bunch of spherical trigonometry functions for geographic applications.
 * mpmcorrelogram - I include it as a curiosity. It calculates Multivariate Mantel Correlograms.
 * ncf - Provides functions correlog and spline.correlog. Plots correlograms. Does randomization tests.
 * pgirmess - Has function correlog that calculates the correlogram. It uses normal approximation to test significance.
