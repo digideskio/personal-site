@@ -10,13 +10,13 @@ Papers
 ======
 
 - **Chen, Xiaming**; Wang Haiyang, Qiang, Siwei; Wang, Yongkun; Jin, Yaohui; *Discovering mesostructures of human
-  mobility from city-scale data*, Submission to Trans. on Big Data (TBD).
+  mobility from city-scale data*, Submission to Trans. on Big Data (TBD), 2015.
 
 - **Chen, Xiaming**; Qiang, Siwei; Wei, Jianwen; Jiang, Kaida; Jin, Yaohui; *Passive profiling of mobile engaging
-  behavior via user-end application performance assessment*, Pavasive and Mobile Computing (PMC), 2015.
+  behavior via user-end application performance assessment*, Pavasive and Mobile Computing (PMC, **IF 2.325**), 2015.
 
 - **Chen, Xiaming**; Jin, Yaohui; Qiang, Siwei; Hu, Weisheng; Jiang, Kaida; *Analyzing and Modeling Spatio-Temporal
-  Dependence of Cellular Traffic at City Scale*, ICC, 2015. [`Project <https://github.com/caesar0301/MSTD>`_]
+  Dependence of Cellular Traffic at City Scale*, ICC, 2015.
 
 - Gong, Wenjuan; **Chen, Xiaming**; Qiang, Siwei; Jin, Yaohui; *Trajectory pattern change analysis in campus WiFi
   networks*, Proceedings of the Second ACM SIGSPATIAL International Workshop on Mobile Geographic Information
@@ -29,6 +29,10 @@ Papers
   optimization of tunable wavelength selection photonic switch using a microring resonator*,Optical
   Engineering,50,094002,2011.
 
+- 石开元，**陈夏明**，强思维，王海洋，孙莹，金耀辉，*多源数据融合的危害公共安全事件关联关系挖掘*，计算机研究与发展，2015.
+
+- 孙莹，**陈夏明**，王海洋，强思维，*城市尺度下基站人群的时空预测模型*，计算机应用研究，2015.
+
 Tech. Reports
 =============
 
@@ -39,7 +43,7 @@ Tech. Reports
 Patents
 =======
 
-- **陈夏明**，金耀辉，杨鑫，韦建文，叶伟，*被动网络性能测量系统及其页面识别方法*，2011, 专利号201110186461.9
+- **陈夏明**，金耀辉，杨鑫，韦建文，叶伟，*被动网络性能测量系统及其页面识别方法*，(专利号201110186461.9), 2011.
 
 
 You can find the bibliobraphy of all papers on my `Google Scholar`_.

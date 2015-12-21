@@ -28,11 +28,12 @@ ARTICLE_SAVE_AS = 'posts/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 PLUGIN_PATHS = ["plugins"]
 PLUGINS = ['gravatar']
 
-THEME = "pelican-themes/fresh"
+THEME = "mytheme"
+MD_EXTENSIONS = ['codehilite', 'pullquote']
 
 ## Builtin
 DISQUS_SITENAME = "xiamingdotme"
-GOOGLE_ANALYTICS = "UA-36744847-3"
+GOOGLE_ANALYTICS = "UA-36744847-4"
 MENUITEMS = (('Blogs', '/'),)
 GITHUB_URL = 'http://github.com/caesar0301'
 SOCIAL = (('Github', 'https://github.com/caesar0301/'),
